@@ -113,3 +113,35 @@ header {
 
 /* Philosophy and Appointment */
 
+
+.philo-appoint {
+	margin-top: 3rem;
+	display: flex;
+    justify-content: center;
+}
+
+.philo-appoint-content {
+	display: flex;
+    justify-content: center;
+}
+
+.title {
+	width: 10rem;
+	background-color: cadetblue;
+	padding: 0.5rem 1.25rem;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 1rem;
+	display: block;
+}
+
+.pa {
+	width: 35%;
+}
+
+.philosophy {
+	margin-right: 5%;
+}
+
+/* Footer */
+
