@@ -77,3 +77,39 @@ header {
 
 /* Qualifications */
 
+.qualifications-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	height: 8rem;
+}
+
+.qualification {
+    width: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.qualification-text {
+	display: block;
+	align-self: flex-end;
+}
+
+.qualification-img img{
+	width: 5rem;
+}
+
+.paper img {
+	width: 3.5rem;
+}
+
+.ruler {
+	margin-left: 6rem;
+	margin-right: 6rem;
+}
+
+/* Philosophy and Appointment */
+
