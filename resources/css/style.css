@@ -145,3 +145,23 @@ header {
 
 /* Footer */
 
+footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
+.copyright-container {
+	background-color: azure;
+	display: flex;
+}
+
+.copyright-container img{
+	height: 1.5rem;
+    margin: 4rem 1rem 4rem 4rem;
+}
+
+.copyright {
+	align-self: center;
+}
