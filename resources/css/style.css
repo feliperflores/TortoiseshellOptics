@@ -60,6 +60,10 @@ header {
 	margin-right: 2rem;
 }
 
+.menu {
+	display: none;
+}
+
 .quote-container {
 	display: flex;
 	justify-content: flex-end;
@@ -164,4 +168,49 @@ footer {
 
 .copyright {
 	align-self: center;
+}
+
+/* Media Display */
+
+@media only screen and (max-width: 1004px) {
+	.banner {
+		height: 22rem;
+	}
+
+	.banner-contents {
+		width: 100%;
+	}
+
+	header {
+		width: 100% !important;
+		margin-top: 0;
+	}
+
+	.quote-container {
+		margin-right: 2rem;
+	}
+
+	.quote-content {
+		padding: 0.75rem 4rem;
+		margin-left: 0rem;
+		margin-top: 5rem;
+	}
+
+	.copyright-container {
+		width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	.link {
+		display: none;
+	}
+
+	.menu {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 626px) {
+	
 }
