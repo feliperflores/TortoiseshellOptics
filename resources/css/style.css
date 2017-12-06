@@ -224,6 +224,7 @@ footer {
 
 	.quote-container {
 		margin-right: 0;
+		font-size: 1rem;
 	}
 
 	.quote-content {
@@ -232,5 +233,67 @@ footer {
 		justify-content: center;
 		margin-top: 9rem;
 		padding: 1rem 0rem;
+	}
+
+	.teste-container {
+		display: flex;
+	    justify-content: center;
+	    margin-top: 3.77rem;
+	    margin-bottom: 14.77rem; 
+	}
+
+	.qualifications-container {
+		flex-wrap: wrap;
+		width: 50%;
+		margin: 0;
+	}
+
+	.paper {
+		margin-bottom: 1.54rem;
+	}
+
+	.ruler {
+		margin-bottom: 1.54rem;
+	}
+
+	.philo-appoint-content {
+		display: block;
+	}
+
+	.pa {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.title {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.text {
+		margin-bottom: 4rem;
+		margin-left: 0.5rem;
+		font-size: 0.77rem;
+	}
+
+	.copyright-container {
+		background-color: transparent;
+	}
+
+	.copyright {
+		display: none;
+	}
+
+	.copyright-img {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.copyright-img img {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
