@@ -212,6 +212,25 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 626px) {
+@media only screen and (max-width: 602px) {
+	.logo-title {
+		display: none;
+	}
 
+	.banner {
+		background-position: 20%;
+		height: 17rem;
+	}
+
+	.quote-container {
+		margin-right: 0;
+	}
+
+	.quote-content {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 9rem;
+		padding: 1rem 0rem;
+	}
 }
